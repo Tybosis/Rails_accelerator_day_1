@@ -10,6 +10,6 @@ describe 'local index page' do
   end
 
   it 'should have the correct title' do
-    page.has_title? "Tyler's Page"
+    page.title.must_include "Tyler's Page"
   end
 end
