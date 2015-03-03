@@ -1,5 +1,4 @@
-require 'minitest/spec'
-require 'minitest/autorun'
+require 'spec_helper'
 require 'welcome'
 
 describe Welcome do
